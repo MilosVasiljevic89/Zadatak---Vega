@@ -1,0 +1,723 @@
+/* general rules */
+
+@font-face {
+    font-family: muse;
+    src: url(fonts/museosans_100-webfont.ttf);
+}
+
+@font-face {
+    font-family: muse2;
+    src: url(fonts/museosans_500-webfont.ttf);
+}
+
+
+html {
+    font-family: muse;
+    box-sizing:border-box;
+}
+
+body{margin: 0px ;padding: 0px}
+
+
+.header_desk {
+    display: none
+}
+
+.footer_desk{display: none;}
+.footer_desk2{display: none;}
+
+.deskonly {display: none;}
+
+
+a {text-decoration: none}
+
+.sidebar a:link , .sidebar a:visited {color:white;}
+
+.whocan:hover , .app:hover{cursor: pointer;}
+
+.whocan:hover {background-color: rgb(153, 204, 255);}
+
+.signupsidebar{color:white;}
+
+.middlecard{position: relative;background-color: white}
+
+.bestvalue {position: absolute;background-color: orange;color: white;padding:10px;top:20px;left:-20px;
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px}
+
+.bestvalueshadow {position: absolute;background-color: #cc5200;height:20px;width:40px;top:55px;left:-18px;transform: rotate(45deg);z-index: -1}
+
+.ipsum:hover  , .signup:hover {background-color: rgb(153, 204, 255);}
+
+.headermenu:hover {background-color:rgb(153, 204, 255)}
+
+.loginsidebar:hover , .signupsidebar:hover {background-color:rgb(0, 0, 150)}
+
+.loginsidebar {border-right:2px solid #000099;}
+
+
+.app:hover {background-color:rgb(0, 0, 150)}
+
+
+.headertop div:hover {background-color:rgb(153, 204, 255)}
+
+.planschild {cursor: pointer;}
+
+
+
+.whocan ,.informations{border-top: 1px solid gray;}
+
+.whocanpart2 .informations  {display: none;}
+
+.whocanpart3 .informations  {display: none;}
+
+.whocanpart4 .informations  {display: none;}
+
+img[src^="x"] {margin-top: 6px;height: 14px;width:14px;margin-right: 26px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile rules */
+
+@media only screen and (max-width: 767px) {
+
+.d-i {display: inline-block;}
+
+header{color: blue; border-bottom: 1px solid gray;overflow: auto;font-family: muse2}
+
+.vert {vertical-align: middle}
+
+
+
+.cont{max-width:767px!important;position: relative;height:100%;}
+
+.maincontent {position: absolute;left:0%;width:100%;top:0%;}
+
+
+
+
+.ellipse{background-color: blue; border-radius: 50% ;width:40px;height:40px; margin: 15px;position: relative;display: inline-block;}
+
+.cubes{position: absolute; left:12px; top:12px;}
+
+
+.burger{ width:40px;height:40px;margin:15px;}
+
+
+
+
+
+.icon{width:60px;height:60px;}
+
+.icondiv{text-align: center;margin-top: 30px;}
+
+.txt {padding: 0px 20px 0px 20px;text-align: center;}
+
+.iconandtexttablet {display: none}
+
+
+.familyimage { width:100%; height:auto;}
+
+
+.centeralign {text-align: center}
+
+.padd{padding: 0px 20px 0px 20px;}
+
+.family , .family2 {margin-bottom: 30px;background-color: black}
+
+.vector{width:30px;height:30px;margin-right: 20px}
+
+.plans {padding:0px 15px;border-bottom: 1px solid gray;margin-top: 20px; margin-bottom: 40px}
+
+
+.planschild{display: inline-block;width: calc(50% - 7px);border:1px  solid gray;  text-align: center;border-top-right-radius: 10px;border-top-left-radius: 10px;}
+
+.active{color:blue;position: relative;top: 1px ;z-index: 1 ;border-bottom: 1px solid white}
+.notactive{background-color: #cccccc;position:relative;top: 1px}
+
+.card{margin: 0 auto;box-shadow: 0px 0px 25px #aaaaaa; border-radius: 10px;padding-bottom:20px;margin-bottom: 40px}
+.cards{padding: 0px 25px 0px 25px}
+
+.topcard{background-color: blue;color: white;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;padding:10px;}
+
+.price{margin:0 auto; width:50%;text-align: center;margin-top: 20px;margin-bottom: 20px}
+
+
+.margins{margin: 0px 30px 0px 30px; width:20px;height:20px;}
+
+.signup{border:3px solid blue;font-size: 20px;color:blue ;display: inline-block;border-radius: 30px;
+	text-align: center;padding:10px 20px;margin-bottom: 20px;}
+
+
+
+.signupparent {text-align: center}
+
+
+.signup span , .signup img{vertical-align: middle}
+
+.userstory {background-color: blue; color:white;padding:40px 15px;margin-top: 40px}
+.signup2 {background-color: white}
+
+.userstory h3 , .userstory p { margin-bottom: 40px}
+
+
+.whocan{border-top: 1px solid gray; padding:30px;color:blue;margin-top: 0px;margin-bottom: 0px}
+.whocanpart4  {border-bottom: 1px solid gray; }
+.whocan img{float:right;transform: scaleY(-1);}
+
+.lorem , .lorem2 {padding:20px;text-align: center}
+
+ul{padding-left:70px;list-style-type: circle;}
+
+li{font-weight: 500%}
+
+.infos h3 {border-bottom: 0px}
+
+.whocan:last-child {border-bottom: 1px solid gray}
+
+.whocancont {margin-bottom: 40px}
+
+.infos{margin-bottom: 30px;}
+
+
+
+.app{background-color: blue;display: inline-block; width: calc(50% - 1px) ;color:white;text-align: center;
+	padding-top: 20px;padding-bottom: 20px;margin-top: 20px;border-right: 1px solid #000099;}
+
+.app:last-child {border-right:0px;}
+
+
+.app img , .app span{vertical-align: middle;margin-left: 10px}
+
+.whatwedo {display: none}
+
+
+.footer{ width:50%;display: inline-block;vertical-align: top;margin-bottom: 30px}
+
+.footer ul{list-style: none;padding-left: 20px;color: blue}
+
+.footer li{padding:10px 0px;}
+
+.footer p{color:gray;font-size: 20px;padding-left: 20px;}
+
+.appgoogle{text-align: center;margin-bottom: 30px}
+
+.appgoogle img{margin-right:20px;width:calc(50% - 80px); max-width: 200px}
+
+.terms{border-top: 1px solid gray;padding:20px 30px;}
+
+.terms span{float: right}
+
+.terms img{width:20px;height:20px;}
+
+.sidebar {background-color: #000099;width:70%;height: 100%;position: fixed;left:100%;top:0px;font-family: muse2}
+
+.menu{border-bottom: 1px solid gray;width: 100%}
+
+.menu div{width:calc(33% - 20px);display: inline-block;padding: 25px 0px 0px 20px;height:40px;text-align: center}
+
+
+
+.activemenu {color:white;border-bottom: 5px solid blue}
+
+.notactivemenu{color:gray;}
+
+.sidebar ul {list-style: none;color:white;margin-top: 40px}
+
+.sidebar li {height:40px;font-size: 30px}
+
+.sidebartablet{color:white;background-color: blue;width: 50%;margin-left:60px ;border-radius: 30px;position: relative;}
+
+.loginsidebar , .signupsidebar{display: inline-block;width: calc(50% - 32px);text-align: center;padding: 15px;display: none}
+
+
+
+.profile{background-image: url("Screen Shot.png");height:40px;width:40px;position: absolute;top: 4px;left: 5px;
+background-size: 100%;display: inline-block;} 
+
+
+.myhome { margin: 0 auto;width:50%;text-align: center;padding: 15px}
+
+.sidebaractivatedformain {left:-70%!important} 
+.sidebaractivatedforside{left:30%!important;}   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet rules */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){ 
+
+.cont{max-width:1023px!important;position: relative;height:100%;}
+
+
+.d-i {display: inline-block;}
+
+header{color: blue; border-bottom: 1px solid gray;overflow: auto;font-family: muse2}
+
+.vert {vertical-align: middle}
+
+
+.maincontent {position: absolute;left:0%;width:100%;top:0%;}
+
+
+.ellipse{background-color: blue; border-radius: 50% ;width:40px;height:40px; margin: 15px;position: relative;display: inline-block;}
+
+.cubes{position: absolute; left:12px; top:12px;}
+
+
+.burger{ width:40px;height:40px;margin:15px;}
+
+
+.icon{width:60px;height:60px;}
+
+.icondiv{text-align: center;margin-top: 15%;width: 100%;}
+
+.txt {padding: 0px 20px 0px 20px;text-align: center;margin-top: 60px}
+
+.iconandtext {display: none;}
+
+
+.familyimage { width:100%; height:auto;}
+
+
+.centeralign {text-align: center}
+
+.padd{padding: 0px ;display: inline-block;width:25%;}
+
+.paddcont{padding: 0px 40px;}
+
+.family {margin-bottom: 30px;background-color: black;position: relative;max-height: 550px;overflow:hidden;}
+
+
+
+.iconandtexttablet {position: absolute;top: 0px;left: 0px;color:white;width: 100%}
+
+.vector{width:30px;height:30px;margin-right: 20px}
+
+.plans {padding:0px 50px;border-bottom: 1px solid gray;margin-top: 20px; margin-bottom: 40px}
+
+
+.planschild{display: inline-block;width: calc(50% - 7px);border:1px  solid gray;  text-align: center;border-top-right-radius: 10px;border-top-left-radius: 10px;}
+
+.active{color:blue;position: relative;top: 1px ;z-index: 1 ;border-bottom: 1px solid white}
+
+.notactive{background-color: #cccccc;position:relative;top: 1px}
+
+.card{margin: 0 auto;box-shadow: 0px 0px 25px #aaaaaa; border-radius: 10px;padding-bottom:20px;margin-bottom: 40px;width:600px;}
+
+.cards{padding: 0px 25px 0px 25px}
+
+.topcard{background-color: blue;color: white;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;padding:10px;}
+
+.price{margin:0 auto; width:50%;text-align: center;margin-top: 20px;margin-bottom: 20px}
+
+
+.margins{margin: 0px 30px 0px 30px; width:20px;height:20px;}
+
+.signup{border:3px solid blue;font-size: 20px;color:blue ;display:inline-block;border-radius: 30px  ;
+	text-align: center;padding:10px 20px;margin-bottom: 20px;}
+
+.signupparent {text-align: center}
+
+
+
+
+
+
+.signup span , .signup img{vertical-align: middle}
+
+.family2 {display: table-cell;width: 50%;height:100%;vertical-align: top;padding-bottom: 0px}
+
+.userstory {background-color: blue; color:white;padding:40px 15px;display: table-cell;width: 50%;height:100%;}
+
+.userstorycont {margin-bottom: 60px;margin-top: 40px}
+
+.signup2 {background-color: white}
+
+.userstory h3 , .userstory p { margin-bottom: 40px}
+
+.ipsum {margin-bottom: 40px}
+
+.whocan{ border-top: 1px solid gray;padding:30px;color:blue;margin-top: 0px;margin-bottom: 0px}
+
+.whocanpart1 .whocan { border-top: 0px solid gray;}
+
+
+
+
+
+.whocan img{float:right;transform: scaleY(-1);}
+
+.whocancont {margin:0px 40px;border:1px solid gray;border-radius: 10px;margin-bottom: 40px}
+
+.lorem , .lorem2{padding:20px;text-align: center;}
+
+.lorem2{border-bottom: 0px ;margin-bottom: 0px}
+
+ul{padding-left:70px;list-style-type: circle;}
+
+li{font-weight: 500%}
+
+.infos h3 {border-bottom: 0px}
+
+
+
+
+
+.app{background-color: blue;display: inline-block; width: calc(33.33% - 2px) ;color:white;text-align: center;
+	padding-top: 20px;padding-bottom: 20px;margin-top: 20px;border-right: 1px solid #000099;height: 24px;vertical-align: bottom}
+
+.app:last-child {border-right:0px;}
+
+.app img , .app span{vertical-align: middle;margin-left: 10px}
+
+.footer{ width:33%;display: inline-block;vertical-align: top;margin-bottom: 30px}
+
+.footer ul{list-style: none;padding-left: 20px;color: blue}
+
+.footer li{padding:10px 0px;}
+
+.footer p{color:gray;font-size: 20px;padding-left: 20px;}
+
+.appgoogle{text-align: center;margin-bottom: 30px;display: inline-block;width: 33%}
+
+.appgoogle img{width:60%;padding-top: 20px}
+
+.terms{border-top: 1px solid gray;padding:20px 50px;}
+
+.terms span{float: right}
+
+
+.terms img{width:20px;height:20px;}
+
+.sidebar {background-color: #000099;width:70%;height: 100%;position: fixed;left:100%;top:0px;font-family: muse2}
+
+.menu{border-bottom: 1px solid gray;width: 100%}
+
+.menu div{width:calc(33% - 20px);display: inline-block;padding: 25px 0px 0px 20px;height:40px;text-align: center}
+
+
+
+.activemenu {color:white;border-bottom: 5px solid blue}
+
+.notactivemenu{color:gray;}
+
+.sidebar ul {list-style: none;color:white;margin-top: 40px}
+
+.sidebar li {height:40px;font-size: 30px}
+
+.sidebartablet{color:white;background-color: blue;width: 50%;margin-left:60px ;border-radius: 30px;position: relative;}
+
+.loginsidebar , .signupsidebar{display: inline-block;width: calc(50% - 32px);text-align: center;padding: 15px;display: none}
+
+
+.profile{background-image: url("Screen Shot.png");height:40px;width:40px;position: absolute;top: 4px;left: 5px;background-size: 100%;
+display: inline-block;} 
+
+
+.myhome { margin: 0 auto;width:50%;text-align: center;padding: 15px}
+
+.sidebaractivatedformain {left:-70%!important} 
+.sidebaractivatedforside{left:30%!important;}   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop rules */ 
+
+
+@media only screen and (min-width: 1024px) { 
+
+.cont{position: relative;height:100%;}
+
+
+.d-i {display: inline-block;}
+
+header{color: blue; border-bottom: 1px solid gray;overflow: auto;font-family: muse2}
+
+.vert {vertical-align: middle}
+
+
+.maincontent {position: absolute;left:0%;width:100%;top:0%;}
+
+
+
+
+.ellipse{background-color: blue; border-radius: 50% ;width:40px;height:40px; margin: 15px;position: relative;display: inline-block;}
+
+.cubes{position: absolute; left:12px; top:12px;}
+
+
+.header_mob_tab{display: none}
+
+.header_desk {display: block;padding:0px 20px 0px 20px;}
+
+.header_desk_div {display: inline-block;width: 33%;vertical-align: top;height: 100%}
+
+.header_desk_div:nth-child(2) {vertical-align: bottom;}
+
+.header_desk_div:nth-child(1) {padding-top:40px;}
+
+.headermenu {display: inline-block;color: black;font-family:muse2 ;padding:50px 10px}
+
+.headertop div{display: inline-block;padding:10px;}
+
+
+.headertop {text-align: right;padding-top: 10px}
+
+
+.icon{width:60px;height:60px;}
+
+.icondiv{text-align: center;margin-top: 15%;width: 100%}
+
+.txt {padding: 0px 20px 0px 20px;text-align: center;margin-top: 60px}
+
+.iconandtext {display: none;}
+
+
+.familyimage { width:100%; height:auto;}
+
+
+.centeralign {text-align: center}
+
+.padd{padding: 0px ;display: inline-block;width:25%;}
+
+.paddcont{padding: 0px 40px;}
+
+.family {margin-bottom: 60px;background-color: black;position: relative;max-height: 550px;overflow: hidden;}
+
+
+
+.iconandtexttablet {position: absolute;top: 0px;left: 0px;color:white;width: 100%}
+
+.vector{width:30px;height:30px;margin-right: 20px}
+
+.plans {padding:0px 50px;border-bottom: 1px solid gray;margin-top: 60px; margin-bottom: 80px}
+
+
+.planschild{display: inline-block;width: calc(50% - 7px);border:1px  solid gray;  text-align: center;border-top-right-radius: 10px;border-top-left-radius: 10px;}
+
+.active{color:blue;position: relative;top: 1px ;z-index: 1 ;border-bottom: 1px solid white}
+
+.notactive{background-color: #cccccc;position:relative;top: 1px}
+
+.card{box-shadow: 0px 10px 10px #aaaaaa; border-radius: 10px;padding-bottom:20px;margin-bottom: 40px;width:30%;display: inline-block;
+margin-top: 30px;vertical-align: top}
+
+.cards{padding: 0px 25px 0px 25px; text-align: center;margin-bottom: 40px}
+
+.middlecard {margin-top: 0px;padding-bottom: 60px;box-shadow: 0px 10px 10px #aaaaaa;z-index: 200;background-color: white;}
+
+.middlecard .topcard{padding:25px;}
+
+
+.bestvalue {position: absolute;background-color: orange;color: white;padding:10px;top:15px;left:-20px;
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px}
+
+.bestvalueshadow {position: absolute;background-color: #cc5200;height:20px;width:30px;top:40px;left:-18px;transform: rotate(20deg);z-index: -100}
+
+.topcard{background-color: blue;color: white;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;padding:10px;}
+
+.price{margin:0 auto; width:50%;text-align: center;margin-top: 20px;margin-bottom: 20px;height:80px;background-color: white;z-index: 3}
+
+.info {text-align: left;}
+
+.margins{margin: 0px 20px 0px 15px; width:20px;height:20px;}
+
+.signup{border:3px solid blue;font-size: 20px;color:blue ;display:inline-block;border-radius: 30px  ;
+    text-align: center;padding:10px 20px;margin-bottom: 20px;}
+
+.signupparent {text-align: center}
+
+
+
+
+
+
+.signup span , .signup img{vertical-align: middle}
+
+.family2 {display: table-cell;width: 50%;height:100%;vertical-align: top;padding-bottom: 0px}
+
+.userstory {background-color: blue; color:white;padding:40px 15px;display: table-cell;width: 50%;height:100%;}
+
+.userstorycont {margin-bottom: 60px;margin-top: 40px}
+
+.signup2 {background-color: white}
+
+.userstory h3 , .userstory p { margin-bottom: 40px}
+
+.ipsum {margin-bottom: 40px}
+
+
+
+
+.whocanpart1 .whocan { border-top: 0px solid gray;}
+
+
+
+
+.whocan{ border-top: 1px solid gray;padding:30px;color:blue;margin-top: 0px;margin-bottom: 0px}
+
+.whocan img{float:right;transform: scaleY(-1);}
+
+.whocancont {margin:0px 40px;border: 1px solid gray;border-radius: 10px;margin-bottom: 40px}
+
+.lorem , .lorem2{padding:20px;text-align: center;}
+
+.lorem2{border-bottom: 0px solid gray;margin-bottom: 0px}
+
+ul{padding-left:70px;list-style-type: circle;}
+
+li{font-weight: 500%}
+
+.infos h3 {border-bottom: 0px}
+
+
+
+
+
+.app{background-color: blue;display: inline-block; width: calc(33.33% - 2px) ;color:white;text-align: center;
+    padding-top: 20px;padding-bottom: 20px;margin-top: 20px;margin-bottom:20px;border-right: 1px solid #000099;height: 24px;vertical-align: bottom}
+
+.app:last-child {border-right:0px;}
+
+.app img , .app span{vertical-align: middle;margin-left: 10px}
+
+.footer{ width:20%;display: inline-block;vertical-align: top;margin-bottom: 30px}
+
+.footer_desk{display: inline-block;width: 20%;color: blue;vertical-align: top;padding-top: 20px;text-align: center}
+
+
+
+.footer_desk2{display: inline-block;width: 20%}
+
+.footer ul , .footer_desk2 ul{list-style: none;padding-left: 20px;color: blue}
+
+.footer li, .footer_desk2 li{padding:10px 0px;}
+
+.footer p, .footer_desk2 p{color:gray;font-size: 20px;padding-left: 20px;}
+
+
+.deskonly {display: block;}
+
+.appgoogle{text-align: center;margin-bottom: 30px;display: inline-block;width: 20%}
+
+.appgoogle img{width:60%;padding-top: 20px}
+
+.terms{border-top: 1px solid gray;padding:20px 50px;}
+
+.terms span{float: right}
+
+
+.terms img{width:20px;height:20px;}
+
+.sidebar {display: none!important}
+
+.menu{border-bottom: 1px solid gray;width: 100%}
+
+.menu div{width:calc(33% - 20px);display: inline-block;padding: 25px 0px 0px 20px;height:40px;text-align: center}
+
+
+
+.activemenu {color:white;border-bottom: 5px solid blue}
+
+.notactivemenu{color:gray;}
+
+.sidebar ul {list-style: none;color:white;margin-top: 40px}
+
+.sidebar li {height:40px;font-size: 30px}
+
+
+
+
+.sidebartablet {color:white;background-color: blue;width: 70%;float: right ;border-radius: 30px;
+   ;position: relative;margin-bottom: 10px}
+
+.loginsidebar , .signupsidebar{display: inline-block;width: calc(50% - 32px);text-align: center;padding: 15px;}
+
+.sidebartabletfooter {color:white;background-color: blue;width: 80%;margin-left:0px ;border-radius: 30px;
+   position: relative;margin-bottom: 10px}
+
+
+.loginsidebar {border-top-left-radius: 30px;border-bottom-left-radius: 30px}
+
+.loginsidebar {border-right:2px solid white;}
+
+.signupsidebar {border-top-right-radius: 30px;border-bottom-right-radius: 30px}
+
+
+
+.profile{background-image: url("Screen Shot.png");height:40px;width:40px;position: absolute;top: 4px;left: 5px;background-size: 100%;display: inline-block;} 
+
+
+.myhome { margin: 0 auto;width:50%;}
+
+.sidebaractivatedformain {left:0%!important} 
+.sidebaractivatedforside{left:30%!important;}   
+
+
+
+
+
+}
+
+.rotate {transform: scaleX(-1)!important;}
